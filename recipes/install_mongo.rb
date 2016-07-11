@@ -7,5 +7,5 @@
 package 'mongodb-org'
 
 service 'mongod' do
-  action [ :enable, :start ]
+  action [:enable, :start]
 end
